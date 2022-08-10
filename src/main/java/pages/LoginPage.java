@@ -10,6 +10,7 @@ public class LoginPage {
 
     //Webelement
 	
+	
 	@FindBy(id="txtUsername")
 	private WebElement username;
 	
