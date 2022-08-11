@@ -38,7 +38,7 @@ public class HomePageTest extends BaseTest{
 	public void verifyTitle() {
 		
 		System.out.println(driver.getTitle());
-		
+		System.out.println("verify title");
 		
 	}
 
