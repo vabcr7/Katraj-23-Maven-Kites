@@ -33,5 +33,13 @@ public class HomePageTest extends BaseTest{
 		
 		hp.logout();
 	}
+	
+	@Test (priority=3)
+	public void verifyTitle() {
+		
+		System.out.println(driver.getTitle());
+		
+		
+	}
 
 }
